@@ -1,3 +1,5 @@
+#Changed from plot.GAsearch() function in kofnGA package.
+#link of plot.GAsearch():https://github.com/cran/kofnGA/blob/master/R/GAsearch_methods.R
 plot.GAsearch.self <- function(x, type=c("l","l"), lty=c(1,1), pch=c(-1,-1), col=c("blue", "red"), lwd=c(1,1), ...) {
 
   ng <- length(x$old$obj) - 1
